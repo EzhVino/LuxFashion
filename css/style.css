@@ -889,6 +889,10 @@ li {
         margin-left: 0;
     }
 
+    .header__searchbar:hover .header__searchbar-input {
+        width: 100px;
+    }
+
     .header__icons-right {
         margin-right: 0px;
     }
