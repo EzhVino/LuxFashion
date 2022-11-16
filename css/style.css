@@ -57,10 +57,17 @@ li {
 
 .header__searchbar-btn {
     fill: #E8E8E8;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
 }
 
 .header__searchbar-btn:hover {
     fill: #F16D7F;
+}
+
+.header__searchbar-input_checkbox {
+    display: none;
 }
 
 .header__searchbar-input {
@@ -78,11 +85,16 @@ li {
     word-break: break-all;
 }
 
-.header__searchbar:hover .header__searchbar-input {
+.header__searchbar-input:focus {
+    visibility: visible;
+}
+
+.header__searchbar-input_checkbox:checked
++.header__searchbar-input {
     visibility: visible;
     width: 250px;
 }
-
+ 
 .header__icons-right {
     margin-right: 9px;
     display: flex;
@@ -92,6 +104,7 @@ li {
 
 .header__menu_icon {
     fill: #E8E8E8;
+    cursor: pointer;
 }
 
 .header__menu_icon:hover {
@@ -413,6 +426,7 @@ li {
     align-items: center;
     word-break: break-all;
     z-index: 100;
+    cursor: pointer;
 }
 
 .products__add-button_txt {
@@ -473,6 +487,7 @@ li {
     font-size: 16px;
     line-height: 19px;
     color: #F26376;
+    cursor: pointer;
 }
 
 .products__more-items_btn:hover {
@@ -625,16 +640,21 @@ li {
     border: none;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
+    padding: 5px 22px;
+    opacity: 0.67;
+}
+
+.info__subscription__content__subscribe-input::placeholder {
+    padding: 0;
 }
 
 .info__subscription__content__subscribe-input,
 .info__subscription__content__subscribe-input::placeholder {
-    padding: 5px 13px;
     font-size: 14px;
     line-height: 17px;
     color: #222224;
-    opacity: 0.67;
 }
+
 
 .info__subscription__content__subscribe-input:focus {
     outline: none;
@@ -652,6 +672,7 @@ li {
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .info__subscription__content__subscribe-btn:hover {
