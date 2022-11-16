@@ -286,34 +286,38 @@ li {
     gap: 30px;
 }
 
-.categories__item {
+.categories__item-list {
     min-height: 260px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(33, 22, 22, 0.7);
+    background-blend-mode: darken;
+}
+
+.categories__item {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgba(33, 22, 22, 0.7);
-    background-blend-mode: darken;
     text-transform: uppercase;
     word-break: break-all;
 }
 
-.categories li:first-child {
+.categories__item-list:first-child {
     background-image: url(../img/for_women_img.png);
 }
 
-.categories li:nth-child(2) {
+.categories__item-list:nth-child(2) {
     background-image: url(../img/for_men_img.jpg);
 }
 
-.categories li:nth-child(3) {
+.categories__item-list:nth-child(3) {
     background-image: url(../img/for_kids_img.jpg);
 }
 
-.categories li:nth-child(4) {
+.categories__item-list:nth-child(4) {
     background-image: url(../img/accesories_img.jpg);
     grid-column: span 3;
     min-height: 180px;
@@ -816,11 +820,11 @@ li {
         gap: 19.5px;
     }
 
-    .categories__item {
+    .categories__item-list {
         min-height: 167.6px;
     }
 
-    .categories li:nth-child(4) {
+    .categories__item-list:nth-child(4) {
         min-height: 117px;
     }
 
@@ -967,7 +971,7 @@ li {
         padding: 0 8px;
     }
 
-    .categories__item {
+    .categories__item-list {
         min-height: 247px;
     }
 
