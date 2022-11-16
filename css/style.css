@@ -85,9 +85,9 @@ li {
     word-break: break-all;
 }
 
-.header__searchbar-input_checkbox:checked~.header__searchbar-input {
+.header__searchbar-input_checkbox:checked+.header__searchbar-input {
     visibility: visible;
-    width: 150px;
+    width: 100px;
 }
 
 .header__icons-right {
@@ -908,10 +908,6 @@ li {
 
     .header__icons-left {
         margin-left: 0;
-    }
-
-    .header__searchbar:hover .header__searchbar-input {
-        width: 100px;
     }
 
     .header__icons-right {
