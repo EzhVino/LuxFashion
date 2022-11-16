@@ -87,7 +87,7 @@ li {
 
 .header__searchbar-input_checkbox:checked+.header__searchbar-input {
     visibility: visible;
-    width: 100px;
+    width: 200px;
 }
 
 .header__icons-right {
@@ -908,6 +908,10 @@ li {
 
     .header__icons-left {
         margin-left: 0;
+    }
+
+    .header__searchbar-input_checkbox:checked+.header__searchbar-input {
+        width: 100px;
     }
 
     .header__icons-right {
