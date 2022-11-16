@@ -87,7 +87,7 @@ li {
 
 .header__searchbar-input_checkbox:checked~.header__searchbar-input {
     visibility: visible;
-    width: 250px;
+    width: 150px;
 }
 
 .header__icons-right {
