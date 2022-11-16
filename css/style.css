@@ -85,16 +85,11 @@ li {
     word-break: break-all;
 }
 
-.header__searchbar-input:focus {
-    visibility: visible;
-}
-
-.header__searchbar-input_checkbox:checked
-+.header__searchbar-input {
+.header__searchbar-input_checkbox:checked~.header__searchbar-input {
     visibility: visible;
     width: 250px;
 }
- 
+
 .header__icons-right {
     margin-right: 9px;
     display: flex;
