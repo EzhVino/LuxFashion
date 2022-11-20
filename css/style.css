@@ -723,19 +723,19 @@ li {
     margin: auto;
 }
 
-.footer__social_icon-background:hover {
+.footer__social_icon-link:hover {
     background-color: #F16D7F;
 }
 
-.footer__social_icon-background:hover .footer__social_icon {
+.footer__social_icon-link:hover .footer__social_icon {
     fill: white;
 }
 
-.footer__social_icon-background:active {
+.footer__social_icon-link:active {
     background-color: #f34a61;
 }
 
-.footer__social_icon-background:active .footer__social_icon {
+.footer__social_icon-link:active .footer__social_icon {
     fill: white;
 }
 
