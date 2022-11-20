@@ -135,6 +135,7 @@ li {
     width: 20px;
     height: 20px;
     position: relative;
+    cursor: pointer;
 }
 
 .menu-list__close-btn::before,
@@ -511,7 +512,7 @@ li {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 30px;
+    gap: 59px;
 }
 
 .info__highlights-content_section {
@@ -710,11 +711,11 @@ li {
     gap: 7.3px;
 }
 
-.footer__social_icon-background {
+.footer__social_icon-link {
+    display: flex;
     width: 31.45px;
     height: 32px;
     background-color: #FFFFFF;
-    display: flex;
 }
 
 .footer__social_icon {
